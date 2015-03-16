@@ -3,7 +3,7 @@
 
 ## SP-Sass
 
-A generic starting point for Sass that I often use when starting projects. Essentially
+A module starting point for Sass that I often use when starting projects. Essentially
 a home-grown Sass boilerplate, however basic it may be. 
 
 ## Reasoning
@@ -15,10 +15,10 @@ a home-grown Sass boilerplate, however basic it may be.
 
 ## Usage  
 
-- Clone files into style directory, named as you wish (such as `sass` or `styles`)
-- All files are compiled into one file (via the `main.scss` global import file). Rename this if you'd like.
-- Compile
-- Link `main.css` (or whatever you compile it to) in your markup
+- Clone repo, rename `sp-sass` to fit your liking (perhaps to `sass` or `styles`)
+- All files are imported into `main.scss`. Rename this if you'd like.
+- Compile (using [autoprefixer](https://github.com/postcss/autoprefixer))
+- Use generated css :)
 
 ## Notes
 
@@ -27,4 +27,5 @@ a home-grown Sass boilerplate, however basic it may be.
   relevant files are in .scss
 - Use with Libsass or Ruby Sass
 - The syntax skins are for Highlight.js. Comment/uncomment to toggle
+- However you compile, use autoprefixer.
 - Refactors that can hopefully be considered improvements to happen frequently
