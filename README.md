@@ -13,6 +13,13 @@ a home-grown Sass boilerplate, however basic it may be.
 - Base styles
 - Minimal bloat
 
+## Usage  
+
+- Clone files into style directory, named as you wish (such as `sass` or `styles`)
+- All files are compiled into one file (via the `main.scss` global import file). Rename this if you'd like.
+- Compile
+- Link `main.css` (or whatever you compile it to) in your markup
+
 ## Notes
 
 - I prefer .sass syntax
