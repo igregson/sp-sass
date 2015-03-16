@@ -1,0 +1,41 @@
+.page--text
+  // todo: refactor this animation into a theme option
+  // @include fadeIn($duration: .5s, $delay: .2s, $function: ease)
+  @include fadeInDown($duration: .33s, $delay: .2s, $function: ease)
+
+
+.page--format
+  .page--title 
+    text-align: center
+
+
+.container--page
+  @extend .contain
+  position: relative
+  margin-left: auto
+  margin-right: auto
+  padding-top: $height--header + $container-space-top
+  padding-left: $container-space-side 
+  padding-right: $container-space-side 
+  // padding-bottom: $container-space-btm
+  @include bpMax(650px)
+    padding-left: $container-space-side / 2
+    padding-right: $container-space-side / 2
+
+  // for sticky footer
+  // complements: http://philipwalton.github.io/solved-by-flexbox/demos/sticky-footer/
+  min-height: 100vh
+  flex-direction: column
+  display: flex
+.page-container-wrap
+  flex: 1
+
+
+
+.contact--social 
+  margin: 3rem auto 0
+  text-align: center
+  .icon 
+    width: 25px
+    height: 25px
+    margin: 0 .2rem

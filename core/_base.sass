@@ -1,0 +1,56 @@
+// spacing
+$space--owl: 1.25em
+$width-contain: 850px
+$width--left: 300px
+$width--right: 300px
+
+$height--header: 75px
+
+$container-padding: 25px
+$container-space-top: $container-padding 
+$container-space-side: $container-padding
+$container-space-btm: $container-padding
+
+$nav-header-bar--height: 50px
+
+// Break Poins 
+$bp-navOff: 750px
+
+// c-generics
+$c-white:   #FEFEFE
+$c-black:   #333333
+$c-gray:    #F8F7F3
+$c-tan:     #DFDED9
+$c-green:   #91B382
+$c-orange:  #f5a93a
+$c-red:     #F0342B
+// c-specics
+$c-bg:      rgb(252,252,252)
+$c-box-bg:  $c-white
+$c--e-nav: #bbb
+$c--e-nav-hov: darken(#565656, 37)
+$c--e-nav-off: lighten(#bbb, 17)
+
+// z-indexs
+$z-bg:  0
+$z-5:   5
+$z-10:  10
+$z-100: 100
+
+
+
+// Lobotomized Owl Selector - brilliant
+// http://alistapart.com/article/axiomatic-css-and-lobotomized-owls
+.container * + *
+  margin-top: $space--owl
+  @include bpMax(650px)
+    margin-top: 1em
+
+html
+  background-color: $c-bg
+  overflow-x: hidden
+
+.contain 
+  max-width: $width-contain
+  margin: 0 auto
+  overflow: hidden
