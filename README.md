@@ -1,16 +1,16 @@
-### SP-Sass
+## SP-Sass
 
 A generic starting point for Sass that often use when starting projects. Essentially
 a home-grown Sass boilerplate. 
 
-### Why
+## Why
 
 - Organization
 - Directory structure
 - Base styles
 - Minimal bloat
 
-### Notes
+## Notes
 
 - I prefer .sass syntax
 - @import directives haven't been working with Gulp sass (which I often use), so
