@@ -3,7 +3,7 @@
 A generic starting point for Sass that often use when starting projects. Essentially
 a home-grown Sass boilerplate. 
 
-## Why
+## Reasoning
 
 - Organization
 - Directory structure
