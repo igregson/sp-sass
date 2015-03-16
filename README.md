@@ -1,7 +1,10 @@
+> "Simplicity is the ultimate sophistication."  
+> ~ Leonardo Da Vinci
+
 ## SP-Sass
 
-A generic starting point for Sass that often use when starting projects. Essentially
-a home-grown Sass boilerplate. 
+A generic starting point for Sass that I often use when starting projects. Essentially
+a home-grown Sass boilerplate, however basic it may be. 
 
 ## Reasoning
 
