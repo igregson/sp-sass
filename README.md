@@ -1,4 +1,4 @@
-> Simplicity is the ultimate sophistication.
+> Simplicity is the ultimate sophistication.  
 > ~ Leonardo Da Vinci
 
 ## SP-Sass
