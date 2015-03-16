@@ -3,7 +3,7 @@
 
 ## SP-Sass
 
-A generic starting point for Sass that I often use when starting projects. Essentially
+A module starting point for Sass that I often use when starting projects. Essentially
 a home-grown Sass boilerplate, however basic it may be. 
 
 ## Reasoning
