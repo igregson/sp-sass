@@ -16,7 +16,7 @@ a home-grown Sass boilerplate, however basic it may be.
 ## Notes
 
 - I prefer .sass syntax
-- @import directives haven't been working with Gulp sass (which I often use), so
+- `@import` directives haven't been working with Gulp sass (which I often use), so
   relevant files are in .scss
 - The syntax skins are for Highlight.js. Comment/uncomment to toggle.
 - Refactors that can hopefully be considered improvements to happen frequently.
