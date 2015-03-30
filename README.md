@@ -17,8 +17,7 @@ a home-grown Sass boilerplate, however basic it may be.
 
 - Clone repo, rename `sp-sass` to fit your liking (perhaps to `sass` or `styles`)
 - All files are imported into `main.scss`. Rename this if you'd like.
-- Compile (using [autoprefixer](https://github.com/postcss/autoprefixer))
-- Use generated css :)
+- Compile (using [autoprefixer](https://github.com/postcss/autoprefixer)) and enjoy.
 
 ## Notes
 
