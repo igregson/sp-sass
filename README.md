@@ -21,7 +21,7 @@ a home-grown Sass boilerplate, however basic it may be.
 
 ## Notes
 
-- Works with Libsass or Ruby Sass
+- Works with Libsass and Ruby Sass
 - I prefer `.sass` syntax but some files are in `.scss` as a workaround to issues I've experienced with some compilers
 - Syntax files are for [Highlight.js](https://highlightjs.org/) - comment/uncomment to toggle 
 - However you compile, it's important to use Autoprefixer ([Prepos](https://prepros.io/) is a free compiler GUI with autoprefixer support)
