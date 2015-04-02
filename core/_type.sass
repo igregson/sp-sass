@@ -41,11 +41,14 @@ body
 
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 
   font-family: $font-family-heading
-  line-height: 1.5em
+  line-height: 1.5
   color: $c-heading
 // p +, ul +, ol +, pre +, img +
 * +
   h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6
+    // !important here is necessary to override
+    // owl selector from base.sass
+    // TODO: find a better approach
     margin-top: 40px !important
     @include bpMax(650px)
       margin-top: 20px !important
@@ -140,7 +143,7 @@ figcaption
 // ---------------
 // Lists
 
-.page--text, .post--text-body
+.page--text
   ul, ol 
     font-size: 95%
     padding-left: 0
