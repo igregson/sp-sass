@@ -16,15 +16,12 @@ a home-grown Sass boilerplate, however basic it may be.
 ## Usage  
 
 - Clone repo, rename `sp-sass` to fit your liking (perhaps to `sass` or `styles`)
-- All files are imported into `main.scss`. Rename this if you'd like.
-- Compile (using [autoprefixer](https://github.com/postcss/autoprefixer)) and enjoy.
+- All files are imported into `main.scss`. Rename this if you'd like
+- Compile (using [autoprefixer](https://github.com/postcss/autoprefixer)) and enjoy
 
 ## Notes
 
-- I prefer .sass syntax
-- `@import` directives haven't been working with Gulp sass (which I often use), so
-  relevant files are in .scss
-- Use with Libsass or Ruby Sass
-- The syntax skins are for Highlight.js. Comment/uncomment to toggle
-- However you compile, use autoprefixer.
-- Refactors that can hopefully be considered improvements to happen frequently
+- Works with Libsass or Ruby Sass
+- I prefer `.sass` syntax but some files are in `.scss` as a workaround to issues I've experienced with some compilers
+- Syntax files are for [Highlight.js](https://highlightjs.org/) - comment/uncomment to toggle 
+- However you compile, it's important to use Autoprefixer ([Prepos](https://prepros.io/) is a free compiler GUI with autoprefixer support)
